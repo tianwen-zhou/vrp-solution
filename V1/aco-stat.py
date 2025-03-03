@@ -8,7 +8,7 @@ ds = load_dataset("Cainiao-AI/LaDe-D")
 data_jl = ds['delivery_jl']
 
 # 选择前1000条数据
-n = 1000
+n = 10
 data_subset = data_jl.select(range(n))
 
 # 车辆数量和每辆车的配送单数
